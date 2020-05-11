@@ -1,4 +1,4 @@
-/* gneral predisposition */
+/* general predisposition */
 *{
   margin: 0;
   padding: 0;
@@ -7,33 +7,33 @@
 
 /* page conteiner */
 .conteiner{
-  background-color: #d0cbcb;
-  width: 100vw;
-  height: 100vh;
+  /* background-color: #d0cbcb; */
+  width: 100%;
+  /* height: 100vh; */
 }
 
 /* image block */
 .block{
-  width:30%;
-  height: 100%;
+  /* width:30%; */
+  /* height: 100%; */
   margin: auto;
 }
 
 /* single image */
 .image{
   border: solid 2px white;
-  width:100%;
-  height:33%;
+  /* width:100vw; */
+  height:100vh;
   position: relative;
 }
 
 .cagliari{
-  background-size: contain;
+  background-size: cover;
  background-image: url("../img/cagliari.jpg");
 }
 
 .alghero{
-  background-size: contain;
+  background-size: cover;
  background-image: url("../img/alghero.webp");
 }
 
@@ -58,10 +58,12 @@
   display: none;
 }
 
+.image:hover{cursor:pointer;}
+
 /* text */
 .text{
   color: black;
-  font-size: 2em;
+  font-size: 4em;
   position: absolute;
   top: 50%;
   left: 50%;
